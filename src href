@@ -1,0 +1,19 @@
+src
+img 图片 <img src="/img/1.png" alt="1" />
+rame iframe 框架集 <iframe src="girl.gif"></iframe>
+input type 为image的提交按钮 <input type="image" src="submit.jpg" alt="Submit" align="right" />
+scirpt 脚本 <script type="text/javascript" src="org.js"></script>
+style 样式表（胎死腹中的XHTML2中就将src属性推广到了所有元素。比如可以： <style src="common.css"> </style>）
+href
+a  <a href="http://www.baidu.com" target="_blank">百度</a>
+link 引用外部css <link type="text/css" href="iknow_base.css" rel="stylesheet" />
+input type 中的onclick事件
+<input type=button onclick="window.location.href('#')" />
+以上是src和href会被用到的标签，下面来看看他们的区别。
+
+src是source的简写，表示“源”，是引用一个资源将该元素的内容将整体替换。如果不写src，那么本身没有内容，script会不存在脚本代码，img会显示x，iframe会显示空白页。例如<script type="text/javascript" src="b.js">alert(1)</script>，b.js:alert(2); 标准的浏览器里会显示2，因为本身的内容已经被替代了。
+
+href是Hypertext Reference的缩写，表示“超链接”， 目的不是为了引用一个资源，而是为了建立一个“通道”，让当前标签能够链接到目标地址上，并不是为了把目标拉进页面本身内来替换本身的内容，例如a标签的href不会被当做一个资源替换自身，link标签本身并不包含实际的元素意义来做内容，它需要rel明确的表示被【被连接的文档是做什么的】。至于说为什么当初就决定外部样式表用link href来链接，而不是用style src来载入，可能是因为先贤们认为样式表更符合外部链接资源的特征，它更接近附属的资源，而不是内嵌的内容。
+
+
+简而言之，src用于替换当前元素；href用于在当前文档和引用资源之间建立联系
