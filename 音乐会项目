@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='utf-8' />
+		<title Jay Skriptd and the Domsters></title>
+		<script src="scripts/modernizr-1.6,min,js"></script>
+		<link rel="stylesheet" media='screen' href="styles/basic.css" />
+		
+	</head>
+	<body>
+		<head>
+			<img src="images/logo.gif" alt="Jay Skriptd and the Domsters" />
+			<nav>
+				<ul>
+				<li><a href="index.html"</li>
+				<li><a href="about.html"</li>
+					<li><a href="photos.html"</li>
+						<li><a href="live.html"</li>
+							<li><a href="contact.html"</li>
+				</ul>
+			</nav>
+		</head>
+	</body>
+	<article>
+		<h1> Lorem Ipsum Dolor</h1>
+		<p>what the well</p>
+	</article>
+</html>
