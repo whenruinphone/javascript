@@ -1,0 +1,15 @@
+Ajax.Request(url,options) XMLhttpRequest请求
+Ajax.Updater(element,url,options) 包装请求，返回的内容添加到DOM节点中
+Ajax.PeriodcalUpdater(element,url,options) 按照时间间隔执行
+
+onException(ajax.request.exception) 出现错误
+onUninitialzed(XHRrequest,json)创建完成 可能调用
+onLoaded(XHRequest,json) 创建完成 连接打开 准备好发送请求
+onLoading(XHRequest,json) 创建完成 
+onInteractive(XHRequest,json) 接收到部分相应 可能调用
+on###(XHRequest,json) ###是http状态码
+onFailure(XHRequest,json) 状态码200~299
+onSuccess(XHRequest,json) 状态码299以上
+oncomplete(XHRequest,json)
+
+$(expression).animate(prooerties,duration,easing)
