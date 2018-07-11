@@ -1,10 +1,10 @@
 如果为最后一个节点则直接通过append插入在最后
 如果非最后一个则通过insertbefore插入到现有的下一个兄弟节点的前面
 function insertAfter(newElement,targetElement){
-				var parent=targetElement.parentNode;
-				if(parent.lastChild==targetElement){
-					parent.appendChild(newElement);
-				}else{
-					parent.insertBefore(newElement,targetElement.nextSibling);
-				}
-			}
+var parent=targetElement.parentNode;
+if(parent.lastChild==targetElement){
+	parent.appendChild(newElement);
+}else{
+	parent.insertBefore(newElement,targetElement.nextSibling);
+     }
+}
