@@ -1,0 +1,123 @@
+color:gray;
+border-bottom:1px solid black
+font-family=
+<link type="css/text" rel="stylesheet" href=".css" />
+
+class="tea" p.tea{}
+
+font-size: % 父元素的百分比 150%; 1.2em;
+
+font-weight: normal ;bold; italic; oblique;
+
+（字体颜色）background-color: silver rgb(80%,40%,0%) rgb(255,188,3) #cc6600;
+
+text-decration: underlines;overlines;line-through;none;
+
+(行间距)line-height:1.6em;
+
+内容 补白 边框 边界
+
+()四周补白padding: 20px;
+		padding-left:20px;
+
+
+border-color:white;
+border-width:thin;5px;
+border-style:groove;dotted;double;dashed;........;
+background-color:
+border-top-color:
+border-bottom-style:
+border-left-width:
+
+
+margin:
+margin-right:
+
+
+background-image:url(images/abc.gif);
+background-repeat:no-repeat;repeat-x;repeat-y;inherit;
+background-position: top left;
+
+文本对齐 text-align: center:用于块元素
+类和id
+p.special .special p#special #special
+
+media="print";"screen";"handheld";
+A
+逻辑 
+<div id=""> </div>(块)        <span class=""> </span>（内联）
+
+
+
+内容区宽度 width:
+ 
+选择特定子元素 div h2{} div的h2 #（父元素的id）h2{} #  #（父元素的id）>h2 只选择孩子
+
+line-height: 1;
+
+padding和margin: （上 右 下 左） （上和下，右和左）
+
+border：thin solid #0077ee(顺序不限)
+
+font:font-style font-variant font-weight/line-height font-family;
+
+伪类
+
+未被访问a:link{color:red;} 已经访问 a:visited{} 悬停 a:hover{}
+
+
+
+作者 读者 浏览器
+具体度 000~111 id 类或伪类 元素名称 
+
+漂移布局
+float：right;
+不允许放置
+clear: right;both;
+
+凝胶物布局： margin: auto;
+
+绝对布局：
+
+position: absolute;static;fixed;relative;
+
+固定了 fixed:
+
+z-index:99; (数字大的放在上层）
+
+
+
+表格
+<table>     <tr> </tr>表格行     <th> </th>表头    <td> </td>单元格
+<table summary(摘要):>  <caption>标题
+
+caption-side:bottom;
+border:
+padding:
+border-spacing:
+(压缩边框)border-collapse:collapse
+
+占据2行 rowspan=“2”
+2列    colspan="2"
+
+
+嵌套
+table table th{}
+
+<li>{list-style-type: disc;circle;none;
+list-style-image:url(abc.gif)}
+
+
+表单
+<form action="http://www.abc.com/abc.php method="POST" "
+<input type="text" name="" maxlength=""/>
+type="submit;radio;checkbox"
+value=""
+
+<textarea name="" rows="10" cols="48"><textareas>
+
+<select name="">
+	<option value=""> </option>
+</select>
+
+[]可以填写多个
