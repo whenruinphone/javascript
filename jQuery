@@ -1,0 +1,14 @@
+$('p').removeClass('classFoo').addClass('classBar')
+
+$('li').each(function(i){
+alert(typeif this);
+});
+
+$('#elementid')
+$('.element-class')
+$('tag')
+$('*')
+$('tagA tagB')
+$('tagA,tagB')
+$('#id') $('tag#id')
+$('.classname') $('tag.classname')
