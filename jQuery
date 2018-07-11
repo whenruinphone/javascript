@@ -12,3 +12,13 @@ $('tagA tagB')
 $('tagA,tagB')
 $('#id') $('tag#id')
 $('.classname') $('tag.classname')
+$('tag:even') $('tag:odd')
+
+
+appendTo() insertAfter() clone()
+$(document).ready(handler);
+$(handler);
+
+$('a：first').click()
+
+
